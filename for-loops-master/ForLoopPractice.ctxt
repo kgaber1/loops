@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=ForLoopPractice
+comment0.text=\r\n\ Complete\ each\ loop\ problem\ and\ test\ in\ main.\r\n\ \r\n\ @author\ YOU\r\n\ @version\ TODAY\r\n
+comment1.params=a\ b
+comment1.target=int\ sum(int,\ int)
+comment2.params=a\ b
+comment2.target=int\ sumRange(int,\ int)
+comment3.params=str
+comment3.target=java.lang.String\ reverse(java.lang.String)
+comment3.text=\r\n\ \ \ \ //\ Return\ the\ sum\ of\ all\ even\ ints\ in\ the\ range\ a\ to\ b\ inclusive.\r\n\ \ \ \ public\ static\ int\ sumRange(int\ a,\ int\ b)\ {\r\n\r\n\ \ \ \ }\r\n\ \ \ \ \ \ \ \ \r\n\r\n\ \ \ \ //\ Return\ the\ sum\ of\ all\ ints\ in\ the\ range\ 1\ to\ n\ that\ are\ evenly\ divisible\ by\ both\ a\ and\ b.\r\n\ \ \ \ public\ static\ int\ sumAndDiv(int\ n,\ int\ a,\ int\ b)\ {\r\n\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ \r\n\ \ \ \ //\ Return\ the\ sum\ of\ all\ ints\ in\ the\ range\ 1\ to\ n\ that\ are\ evenly\ divisible\ by\ a\ or\ b.\r\n\ \ \ \ public\ static\ int\ sumOrDiv(int\ n,\ int\ a,\ int\ b)\ {\r\n\r\n\ \ \ \ }\r\n\r\n\r\n\ \ \ \ //\ Return\ the\ sum\ of\ all\ ints\ in\ the\ range\ 1\ to\ n\ that\ are\ evenly\ divisible\ by\ a\ or\ b\ but\ not\ both.\r\n\ \ \ \ public\ static\ int\ sumXOrDiv(int\ n,\ int\ a,\ int\ b)\ {\r\n\r\n\ \ \ \ }\r\n\r\n\r\n\ \ \ \ //\ Return\ the\ sum\ of\ the\ first\ n\ perfect\ squares.\r\n\ \ \ \ public\ static\ int\ sumSquares(int\ n)\ {\r\n\r\n\ \ \ \ }\r\n\r\n\r\n\ \ \ \ //\ Return\ true\ if\ an\ int\ n\ contains\ the\ digit\ d,\ and\ false\ otherwise.\r\n\ \ \ \ public\ static\ boolean\ hasDigit(int\ n,\ int\ d)\ {\r\n\r\n\ \ \ \ }\r\n\r\n\r\n\ \ \ \ //\ Return\ the\ sum\ of\ digits\ in\ an\ int.\r\n\ \ \ \ public\ static\ int\ sumDigits(int\ n)\ {\r\n\r\n\ \ \ \ }\r\n\r\n\r\n\ \ \ \ //\ Return\ the\ sum\ of\ all\ odd\ digits\ in\ an\ int.\r\n\ \ \ \ public\ static\ int\ sumOddDigits(int\ n)\ {\r\n\r\n\ \ \ \ }\r\n\r\n\r\n\ \ \ \ //\ Return\ true\ if\ the\ number\ of\ even\ digits\ in\ an\ int\ is\ greater\ than\ the\ number\ of\ odd\ digits\r\n\ \ \ \ public\ static\ boolean\ moreEvens(int\ n)\ {\r\n\r\n\ \ \ \ }\r\n
+comment4.params=str
+comment4.target=boolean\ easyPalindrome(java.lang.String)
+comment4.text=\r\n\ \ \ \ //\ Return\ the\ sum\ of\ the\ unicode\ values\ of\ the\ characters\ in\ str.\r\n\ \ \ \ public\ static\ int\ unicodeSum(String\ str)\ {\r\n\r\n\ \ \ \ }\r\n
+comment5.params=str
+comment5.target=boolean\ hardPalindrome(java.lang.String)
+comment5.text=\r\n\ \ \ \ //\ Return\ String\ str\ with\ all\ non-capital\ letters\ removed.\r\n\ \ \ \ public\ static\ String\ noCaps(String\ str)\ {\r\n\r\n\ \ \ \ }\r\n\r\n\r\n\ \ \ \ //\ Return\ String\ str\ with\ all\ capital\ letters\ turned\ to\ lowercase\ and\ lowercase\ to\ capital.\ Any\ other\ characters\ should\ remain\ unchanged.\r\n\ \ \ \ public\ static\ String\ capSwap(String\ str)\r\n\ \ \ \ {\r\n\r\n\ \ \ \ }\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\r\n\ \ \ \ //\ Return\ the\ factorial\ of\ n.\r\n\ \ \ \ public\ static\ int\ factorial(int\ n)\ {\r\n\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ \r\n\ \ \ \ //\ Return\ the\ nth\ term\ in\ the\ Fibonacci\ sequence\ beginning\ with\ {0,\ 1,\ 1,\ 2,\ ...}\r\n\ \ \ \ public\ static\ int\ nthFib(int\ n)\ {\r\n\r\n\ \ \ \ }\r\n
+numComments=7
