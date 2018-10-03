@@ -32,52 +32,60 @@ public class ForLoopPractice
     
     // Return the sum of all ints in the range 1 to n that are evenly divisible by both a and b.
      public static int sumAndDiv(int n, int a, int b) {
-        int sum = 0;
-    for (int i = a/b; i <= n;  ) {
-         
+        int div = 0;
+        for (int i = 1; i<=n; i++) {
+            if (i % a == 0 && i % b == 0) {
+                div = div + i;
+          }
+        }
+        return div;
     }
-     }
-        
-    /*
-    // Return the sum of all even ints in the range a to b inclusive.
-    public static int sumRange(int a, int b) {
-
-    }
-        
-
-    // Return the sum of all ints in the range 1 to n that are evenly divisible by both a and b.
-    public static int sumAndDiv(int n, int a, int b) {
-
-    }
-    
-    
+      
     // Return the sum of all ints in the range 1 to n that are evenly divisible by a or b.
     public static int sumOrDiv(int n, int a, int b) {
-
+        int div = 0;
+        for (int i = 1; i<=n; i++) {
+            if (i % a == 0 || i % b == 0) {
+                div = div + i;
+          }
+        }
+        return div;
     }
-
-
+    
     // Return the sum of all ints in the range 1 to n that are evenly divisible by a or b but not both.
     public static int sumXOrDiv(int n, int a, int b) {
-
+        int div = 0;
+        for (int i = 1; i<=n; i++) {
+            if (i % a == 0 ^ i % b == 0) {
+                div = div + i;
+          }
+        }
+        return div;
     }
 
-
-    // Return the sum of the first n perfect squares.
+       // Return the sum of the first n perfect squares.
     public static int sumSquares(int n) {
-
+        int div = 0;
+        for (int i = 1; i<=n; i++) {
+            if (Math.sqrt(i) % i == 0) {
+                div = div + i;
+          }
+        }
+        return div;
     }
-
-
+    
     // Return true if an int n contains the digit d, and false otherwise.
     public static boolean hasDigit(int n, int d) {
-
+        int digits = 0;
+        for (int i = 1; i<=n; i++) {
+            if (
+        }
+        return digits;
     }
-
-
+    
     // Return the sum of digits in an int.
     public static int sumDigits(int n) {
-
+       
     }
 
 
@@ -91,8 +99,7 @@ public class ForLoopPractice
     public static boolean moreEvens(int n) {
 
     }
-    */
-
+   
     // Return String str with the characters in reverse order. 
     public static String reverse(String str) {
         String rev = "";
