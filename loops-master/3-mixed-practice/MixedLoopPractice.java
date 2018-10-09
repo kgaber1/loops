@@ -15,7 +15,7 @@
  *
  *  6) countMtoN       - uses a while loop to print the set {m, m+1, m+2, ... , n}. GOOD
  *
- *  7) sumN            - uses a while loop to find and return the sum of the first  
+ *  7) sumN            - uses a while loop to find and return the sum of the first  GOOD
  *                       n integers. 
  *                       
  *  8) perfectSquaresF - uses a for loop to print the first n perfect squares.
@@ -116,28 +116,33 @@
         int sum = 0;
         while (i <= n)
         {
-            System.out.print(i + " ");
             sum += i;
             i++;
         }
         System.out.println(sum);
     }
     
-    public static void  perfectSquaresF(int n)
+    public static void perfectSquaresF(int n)
     {
-        
+        for (int i=1; i<=n; i++)
+        {
+            System.out.print(i*i + " ");
+        }
+        System.out.println();   
     }
     
-    // int num = 0;
-      //  int sum = 0;
-      //  for (int i = 0; num <= n ; i++){
-      //      if ((Math.sqrt(i) % 1 == 0))
-      //      {
-      //          sum += i;
-      //          num += 1;
-      //      }
-      //  }
-      //  System.out.println(sum);
+    public static void sumSquaresW(int n)
+    {
+        int i = 1;
+        int sum = i*i;
+        while (i <= n)
+        { 
+            sum += 1 ;
+            System.out.print(sum + " ");
+            i++;
+        }
+    }
+    
     public static void iLoveJava(int n)
     {
         int i = 1;
@@ -167,6 +172,21 @@
         }
         }
     
+       public static void divBy5or7Sum()
+    {
+        int i = 0; 
+        int count = 0;
+        while (count <= 10000)
+        {
+            count = count + i;
+            if (count % 5 == 0 || count % 7 == 0) {
+                System.out.print(count + " ");
+            }
+            i++;
+        } 
+        System.out.println();
+    } 
+        
     public static void bizzBuzz(int n)
     {
        int i = 1;
@@ -181,6 +201,16 @@
         }
     }
     
+    public static boolean moreEvens(int n)
+    {
+        int i = 1;
+        while (i <= n)
+        { 
+            if (i % 2 == 0 && i > n)
+                return true;
+        }
+        return false;
+    }
     // keep making methods here
     
     
